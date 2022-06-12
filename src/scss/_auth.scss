@@ -1,0 +1,17 @@
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf1f6;
+    height: 100vh;
+
+    .auth-body {
+        padding: 2rem 3rem;
+        background: #fff;
+        width: 500px;
+    }
+
+    .auth-option {
+        font-size: 1rem;
+    }
+}

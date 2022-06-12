@@ -1,0 +1,30 @@
+/*************************** Theme Colours****************************/
+// Define theme colour scheme
+$theme-color-primary: #15a362;
+$theme-text-color-primary: #252930;
+$theme-text-color-secondary: lighten($theme-text-color-primary, 25%);
+$theme-success-color: #5cb377;
+$theme-warning-color: #eebf41;
+$theme-info-color: #5b99ea;
+$theme-danger-color: #d26d69;
+
+/*************************** Variables Section. *****************************/
+// Create variables to override the default value for variables used in the Bootstrap SCSS files.
+
+$theme-colors: (
+    "primary": $theme-color-primary,
+    "secondary": $theme-text-color-secondary,
+    "success": $theme-success-color,
+    "danger": $theme-danger-color,
+    "warning": $theme-warning-color,
+    "info": $theme-info-color,
+);
+
+/*-------------------
+     Breakpoints
+--------------------*/
+$small-breakpoint: 576px !default;
+$medium-breakpoint: 768px !default;
+$large-breakpoint: 992px !default;
+$extra-large-breakpoint: 1200px !default;
+$extra-extra-large-breakpoint: 1400px !default;

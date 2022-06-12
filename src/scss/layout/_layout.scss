@@ -1,0 +1,14 @@
+#wrapper {
+    padding-left: 0;
+    transition: all 0.5s ease;
+    position: relative;
+
+    .app-wrapper {
+        height: 100vh;
+    }
+
+    &.toggled #content-wrapper {
+        position: absolute;
+        margin-right: -250px;
+    }
+}

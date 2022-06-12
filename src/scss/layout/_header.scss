@@ -1,0 +1,50 @@
+#navbar-wrapper {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+#wrapper.toggled #navbar-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+#navbar-wrapper .navbar {
+    border-width: 0 0 0 0;
+    background-color: #fff;
+    font-size: 24px;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    border-bottom: 1px solid #e7e9ed;
+    height: 64px;
+    padding: 0 1rem;
+
+    #sidebar-toggle {
+        color: #757575;
+
+        &:hover {
+            color: #757575;
+        }
+    }
+
+    img.avatar {
+        width: 40px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        top: 120%;
+        left: -7rem;
+        margin-top: 0.125rem;
+    }
+}

@@ -1,0 +1,12 @@
+// Import Font
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap");
+@import "bootstrap/scss/bootstrap.scss";
+@import "components/fullcalendar";
+@import "variables";
+@import "app";
+@import "base";
+@import "layout/header";
+@import "layout/layout";
+@import "layout/content";
+@import "layout/sidebar";
+@import "auth";
